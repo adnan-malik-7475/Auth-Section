@@ -39,29 +39,32 @@ const Login = () => {
                 />
               </div>
               <Link to="/home">
-              <button
-                type="submit"
-                className=" w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-center "
-              >
-                <div className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 ...h-10 rounded-md  h-10 py-2 ">
-                  <p> Sign in</p>
-                </div>
-              </button>
+                <button
+                  type="submit"
+                  className=" w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-center "
+                >
+                  <div className="bg-gradient-to-r from-orange-500 via-red-500 to-pink-500 ...h-10 rounded-md  h-10 py-2 ">
+                    <p> Sign in</p>
+                  </div>
+                </button>
               </Link>
               <div className="flex items-center justify-between ">
-               <Link to="/forgot"> <button
-                
-                  className="text-lg font-medium text-primary-600  hover:underline dark:text-primary-500 m-auto"
-                >
-                  Forgot password?
-                </button></Link>
+                <Link to="/forgot">
+                  {" "}
+                  <button className="text-lg font-medium text-primary-600  hover:underline dark:text-primary-500 m-auto">
+                    Forgot password?
+                  </button>
+                </Link>
               </div>
 
               <p className="text-xl font-light text-black">
                 Don’t have an account yet?{" "}
-                <Link to="/register"> <button className="border-2 border-pink-700  hover:bg-pink-300 w-32 h-8 rounded-md text-pink-700 font-semi-bold">
-                Create New
-                </button></Link>
+                <Link to="/register">
+                  {" "}
+                  <button className="border-2 border-pink-700  hover:bg-cyan-400 w-32 h-8 rounded-md text-pink-700 font-semi-bold">
+                    Create New
+                  </button>
+                </Link>
               </p>
             </form>
           </div>
